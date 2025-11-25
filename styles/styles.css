@@ -28,16 +28,14 @@ img {
 }
 
 p {
-    padding: 10px;
+    padding: 0px;
 }
 
 main {
     width: 900px;
+    max-width: auto;
     margin: 0 auto;
-}
-
-p {
-    margin: 1rem;
+    max
 }
 
 aside {
