@@ -199,3 +199,118 @@ footer {
     padding-top: 20px;
 }
 
+.employees {
+    padding: 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+.employees h2 {
+    grid-column: 1/6;
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+    padding: 10px;
+}
+.employees figure {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.employees img {
+    width: 100%;
+    max-width: 160px;
+    height: 100px;
+    background: var(--primary-color);
+    border-radius: 6px;
+}
+
+.contact-info {
+    text-align: center;
+    margin: 2rem auto;
+    background-color: var(--light-color);
+    padding: 1.5rem;
+    border-radius: 10px;
+}
+
+.contact-info h1 {
+    color: var(--primary-color);
+}
+
+.contact-layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    margin: 2rem 0;
+}
+
+.map iframe {
+    width: 100%;
+    height: 480px;
+    border: none;
+    border-radius: 12px;
+}
+
+.contact-form {
+    padding: 1.2rem;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+}
+
+.contact-form form {
+    display: flex;
+    flex-direction: column;
+    gap: .6rem;
+}
+
+input, textarea {
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    min-height: 100px;
+}
+
+fieldset {
+    border: 1px solid var(--accent-color);
+    padding: .8rem;
+    border-radius: 6px;
+}
+
+legend {
+    font-weight: bold;
+    padding: 0 .5rem;
+}
+
+.subscribe {
+    margin-top: .4rem;
+    font-size: 0.9rem;
+}
+
+button {
+    margin-top: 10px;
+    background-color: var(--primary-color);
+    color: gray;
+    border: none;
+    padding: 6px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: black;
+}
+h3 {
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--accent2-color);
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+}
