@@ -1,6 +1,6 @@
 :root {
     --primary-color: #fff;
-    --secondary-color: #0a3d62;  
+    --secondary-color: #023e8a;  
     --accent1-color: #264653;     
     --accent2-color: blue;     
     --dark-color: rgba(0, 51, 68, 0.6);      
@@ -53,7 +53,7 @@ nav, p, section, article {
     padding: 16px;
     text-align: center;
     opacity: 0.7;
-    background-color: var(--accent2-color);
+    background-color: var(--secondary-color);
     color: var(--primary-color);
     font-family: var(--heading-font);
 }
@@ -313,4 +313,162 @@ button:hover {
     background-color: var(--secondary-color);
     color: var(--primary-color);
     font-family: var(--heading-font);
+}
+.hero-home {
+    position: relative;
+    width: 100%;
+}
+.hero-home img {
+    display: block;
+    width: 100%;
+    height: 500px;
+}
+.hero-home h1{
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    font-family: var(--heading-font);
+}
+}
+.newsletter {
+    padding: 2rem;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+.newsletter form {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    max-width: 400px;
+    margin-inline: auto;
+    gap: 10px;
+}
+.newsletter input {
+    padding: 10px;
+    font-size: 1rem;
+}
+
+.newsletter button {
+    padding: 10px;
+    opacity: 0.7;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+}
+.link {
+    text-align: center;
+    padding: 40px 20px;
+    background: var(--primary-color);
+}
+.linklink {
+    display: inline-block;
+    padding: 12px 25px;
+    background: #0077cc;
+    color: var(--primary-color);
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 15px;
+}
+.grid-section {
+    padding: 0;
+    text-align: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: start;
+}
+
+.grid img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.grid h3 {
+    margin-top: 10px;
+}
+
+.grid p {
+    margin-bottom: 10px;
+}
+.cta {
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+    text-align: center;
+    padding: 20px 20px;
+    margin: 20px;
+    border-radius: 10px;
+}
+.cta .btn {
+    display: inline-block;
+    background-color: var(--accent1-color);
+    color: var(--primary-color);
+    padding: 10px 20px;
+    margin-top: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.trip-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 20px;
+}
+
+.trip-img {
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+.trip-img img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+
+.trip-img h3 {
+    margin: 10px 0;
+}
+
+.trip-img p {
+    padding: 0 10px 10px 10px;
+}
+
+.trip-table {
+    padding: 20px;
+    overflow-x: auto;
+}
+
+.trip-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: var(--primary-color);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.trip-table th, .trip-table td {
+    border: 1px solid var(--primary-color);
+    padding: 12px;
+    text-align: center;
+}
+
+.trip-table th {
+    opacity: 0.7;
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+.cta h2 {
+    padding: 10px;
 }
